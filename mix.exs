@@ -31,8 +31,7 @@ defmodule Standup.Mixfile do
       licenses: ["MIT"],
       keywords: ["Elixir", "Slack"],
       maintainers: ["Marat Galiev"],
-      links: %{"GitHub" => "https://github.com/maratgaliev/standup",
-               "Docs" => "https://hexdocs.pm/standup"}
+      links: %{"GitHub" => "https://github.com/maratgaliev/standup_bot"}
     ]
   end
 
