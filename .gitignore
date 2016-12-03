@@ -1,0 +1,14 @@
+# App artifacts
+/_build
+/cover
+doc
+docs
+.env
+/deps
+/*.ez
+erl_crash.dump
+.idea
+*.iml
+.env
+.DS_Store
+coverage.xml
