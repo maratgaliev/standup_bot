@@ -30,6 +30,7 @@ Stay tuned.
     /invite @YOUR_BOT_NAME
     ```
   5. Ask for some fucking advice:
+  
     ![Sample advice](https://api.monosnap.com/rpc/file/download?id=fUY6U1pV49eEZo4cLKzH4vf7geIDmj)
 
 
