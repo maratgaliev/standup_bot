@@ -16,7 +16,7 @@ defmodule Standup.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger, :httpoison, :hedwig_slack, :quantum],
+    [applications: [:logger, :httpoison, :hedwig_slack, :quantum, :calendar, :timex],
      mod: {Standup, []}]
   end
 
@@ -40,8 +40,10 @@ defmodule Standup.Mixfile do
       {:httpoison, "~> 0.9.1"},
       {:ex_doc, "~> 0.13.1", only: [:dev, :docs]},
       {:hedwig_slack, "~> 1.0"},
-      {:quantum, ">= 1.7.1"},
-      {:html_entities, "~> 0.3"}
+      {:quantum, "1.8.1", github: "c-rack/quantum-elixir"},
+      {:html_entities, "~> 0.3"},
+      {:calendar, "~> 0.16.1"},
+      {:timex, "~> 3.0"}
     ]
   end
 end

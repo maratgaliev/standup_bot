@@ -12,10 +12,12 @@ config :standup, Standup.Robot,
     {Standup.Responders.Advice, []}
   ]
 
+config :standup, Standup.Responders.EventFetcher,
+  time_of_day: "30 10 * * *"
+
 config :standup, Standup.Responders.Standup,
-  time_of_day: "45 10 * * *",
   slack_channel: System.get_env("STANDUP_CHANNEL"),
   suffix: ["guys", "folks", "hackers", "peeps", "avengers"],
-  msg: "Standup time"
+  msg: "It's Standup Time"
 
-config :quantum, timezone: :local
+config :quantum, timezone: "Europe/Moscow"
